@@ -1,10 +1,14 @@
 <?php
 /**
- * Plugin Name: WPG AdminBar Sage Template
- * Description: Shows the active Sage templates (base and main) in WordPress admin bar
- * Version:     1.0
- * Author:      Pierre Dargham
- * Plugin URI:  https://github.com/wp-globalis-tools/wpg-admin-bar-sage-template/
+ * Plugin Name:         WPG AdminBar Sage Template
+ * Plugin URI:          https://github.com/wp-globalis-tools/wpg-admin-bar-sage-template
+ * Description:         Shows the active Sage templates (base and main) in WordPress admin bar
+ * Author:              Pierre Dargham, Globalis Media Systems
+ * Author URI:          https://github.com/wp-globalis-tools/
+ *
+ * Version:             1.0.0
+ * Requires at least:   4.0.0
+ * Tested up to:        4.6.0
  */
 
 namespace WPG\AdminBarSageTemplate;
