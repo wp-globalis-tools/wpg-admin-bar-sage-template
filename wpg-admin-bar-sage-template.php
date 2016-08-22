@@ -18,7 +18,7 @@ add_action('admin_bar_menu', __NAMESPACE__ . '\\admin_bar_sage_template');
 function admin_bar_sage_template($admin_bar) {
   global $template;
 
-  if (!apply_filters('sage/admin_bar_template_visibility', current_user_can('manage_options'))) {
+  if (is_admin() || !apply_filters('sage/admin_bar_template_visibility', current_user_can('manage_options'))) {
     return;
   }
 
