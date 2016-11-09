@@ -11,7 +11,7 @@
  * Tested up to:        4.6.0
  */
 
-namespace WPG\AdminBarSageTemplate;
+namespace Globalis\AdminBarSageTemplate;
 
 add_action('admin_bar_menu', __NAMESPACE__ . '\\admin_bar_sage_template');
 
