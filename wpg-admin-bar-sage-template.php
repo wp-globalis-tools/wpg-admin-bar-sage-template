@@ -6,7 +6,7 @@
  * Author:              Pierre Dargham, Globalis Media Systems
  * Author URI:          https://github.com/wp-globalis-tools/
  *
- * Version:             1.0.0
+ * Version:             0.3.0
  * Requires at least:   4.0.0
  * Tested up to:        4.6.0
  */
